@@ -26,7 +26,7 @@ int main()
       blocked_pairs += (i-4)*4*6; // inner layer left out;
       blocked_pairs += (i-4)*(i-4)*8;//all the inner square left out
       ans -= blocked_pairs/2;
-      //after looking at the solution found out that blocked pairs shortcut = 4(x-2)(x-2)
+      //after looking at the solution found out that blocked pairs shortcut = 4(x-1)(x-2)
       cout<<ans<<"\n";
   }
   return 0;
